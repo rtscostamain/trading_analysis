@@ -1,0 +1,18 @@
+# Ignore the entire trading folder
+trading/
+
+# Ignore all .env files
+*.env
+
+# Ignore specific files
+/config/database.yml
+
+# Ignore all files in a specific directory
+/logs/
+/temp/
+
+# Ignore all .log files
+*.log
+
+# Exclude files in a nested directory
+/build/tmp/**
